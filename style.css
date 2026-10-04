@@ -1,0 +1,27 @@
+/* Hero Section */
+
+.hero{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-content p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
